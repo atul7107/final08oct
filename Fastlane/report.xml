@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: increment_build_number" time="1.788583">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: increment_version_number" time="0.648594">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: gym" time="123.759615">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: run_tests" time="122.654271">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: sonar" time="24.346967">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: snapshot" time="225.458135">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

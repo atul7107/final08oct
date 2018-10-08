@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='finalUITests.xctest' tests='3' failures='0'>
+  <testsuite name='finalTests.finalTests' tests='2' failures='0'>
+    <testcase classname='finalTests.finalTests' name='testExample' time='0.002'/>
+    <testcase classname='finalTests.finalTests' name='testPerformanceExample' time='0.659'/>
+  </testsuite>
+  <testsuite name='finalUITests.finalUITests' tests='1' failures='0'>
+    <testcase classname='finalUITests.finalUITests' name='testExample' time='8.238'/>
+  </testsuite>
+</testsuites>

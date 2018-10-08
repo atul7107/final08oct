@@ -1,0 +1,22 @@
+# The app bundle
+app_identifier "com.sapient.mobile.cargill"
+# A list of devices you want to take the screenshots from
+devices([
+   "iPhone 6"
+])
+
+languages([
+   "en-US",
+   "de-DE"
+ ])
+
+scheme "final"
+output_directory "./screenshots"
+clear_previous_screenshots true
+
+# Arguments to pass to the app on launch. See https://docs.fastlane.tools/actions/snapshot/#launch-arguments
+# launch_arguments(["-favColor red"])
+
+# For more information about all available options run
+# fastlane action snapshot
+

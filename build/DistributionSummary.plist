@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>final.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>77657C6A4635C055415FC82127EC405654449EED</string>
+				<key>dateExpires</key>
+				<string>21/03/21</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4CYMJA762C.com.sapient.mobile.cargill</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4CYMJA762C</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>4CYMJA762C.com.sapient.mobile.cargill</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>final.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>f27e628a-cf3d-44e3-a7a8-618dc1e59d0c</string>
+				<key>name</key>
+				<string>Cargill In House Dist Profile</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4CYMJA762C</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

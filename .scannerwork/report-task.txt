@@ -1,0 +1,6 @@
+projectKey=SR_cargill_cascna_mainapp
+serverUrl=http://sonar-cxo.dev.dev-cglcloud.com
+serverVersion=6.7.0.33306
+dashboardUrl=http://sonar-cxo.dev.dev-cglcloud.com/dashboard/index/SR_cargill_cascna_mainapp
+ceTaskId=AWZST6O6UuArNSBwvmf_
+ceTaskUrl=http://sonar-cxo.dev.dev-cglcloud.com/api/ce/task?id=AWZST6O6UuArNSBwvmf_
