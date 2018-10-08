@@ -21,7 +21,7 @@ sonar(
   project_key: "SR_cargill_cascna_mainapp",
   project_version: "1.0",
   project_name: "SR_cargill_cascna_mainapp",
-  sources_path: File.expand_path("/Users/devsuri/Desktop/final"),
+  sources_path: File.expand_path("/Users/atuyadav2/Desktop/final"),
   sonar_url: "http://sonar-cxo.dev.dev-cglcloud.com/",
   sonar_login: "80c1d6f37213349c527a1dce903f26fc4384e493",
 )
