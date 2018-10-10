@@ -5,17 +5,24 @@ increment_build_number
 increment_version_number(
     bump_type: "major" 
 )
+end
+
+lane :build do
   
 gym(
     scheme: "final",
     export_options: {
     method: "enterprise"}  
 )
+end
+
+lane :unittest do
 
 run_tests(
     devices: ["iPhone 6"],
     scheme: "final"
 )
+end
 
 #sonar(
 #  project_key: "SR_cargill_cascna_mainapp",
@@ -25,6 +32,8 @@ run_tests(
 #  sonar_url: "http://sonar-cxo.dev.dev-cglcloud.com/",
 #  sonar_login: "80c1d6f37213349c527a1dce903f26fc4384e493",
 #)
+lane :screenshot
+
 snapshot(
     project: 'final.xcodeproj',
     scheme: 'final',
@@ -32,6 +41,7 @@ snapshot(
     output_simulator_logs: true,
     clear_previous_screenshots: true
   )
+  end
 
 #hockey(
 #  api_token: "676d0b1a5c4f4d82b069208abfbc84d9",
