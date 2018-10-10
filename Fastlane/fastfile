@@ -32,6 +32,7 @@ end
 #  sonar_url: "http://sonar-cxo.dev.dev-cglcloud.com/",
 #  sonar_login: "80c1d6f37213349c527a1dce903f26fc4384e493",
 #)
+
 lane :screenshot
 
 snapshot(
@@ -39,7 +40,6 @@ snapshot(
     scheme: 'final',
     devices: ['iPhone 6'],
     output_simulator_logs: true,
-    clear_previous_screenshots: true
+    clear_previous_screenshots: true,
 )
-end
 end
