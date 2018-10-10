@@ -40,6 +40,8 @@ snapshot(
     devices: ['iPhone 6'],
     output_simulator_logs: true,
     clear_previous_screenshots: true
+    )
+  
   end
 
 #hockey(
