@@ -42,5 +42,5 @@ snapshot(
     output_simulator_logs: true,
     clear_previous_screenshots: true
 )
-)
+
 end
