@@ -1,6 +1,6 @@
 #!groovy
 
-@Library('github.com/red-panda-ci/jenkins-pipeline-library') _
+@Library('github.com/atul7107/final08oct') _
 
 node {
 	stage 'Checkout and Setup'
