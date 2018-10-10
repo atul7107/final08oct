@@ -41,13 +41,4 @@ snapshot(
     output_simulator_logs: true,
     clear_previous_screenshots: true
     )
-  
   end
-
-#hockey(
-#  api_token: "676d0b1a5c4f4d82b069208abfbc84d9",
-#  ipa: "/Users/devsuri/Documents/final/final.ipa",
-#  notes: "Changelog",
-#)
-end
-
