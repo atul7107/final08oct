@@ -1,6 +1,6 @@
 #!groovy
 
-@Library('github.com/atul7107/final08oct') _
+@Library('github.com/atul7107/final08oct') _feature-fastlane
 
 node {
 	stage 'Checkout and Setup'
