@@ -33,7 +33,7 @@ end
 #  sonar_login: "80c1d6f37213349c527a1dce903f26fc4384e493",
 #)
 
-lane :screenshot
+lane :screenshot do
 
 snapshot(
     project: 'final.xcodeproj',
