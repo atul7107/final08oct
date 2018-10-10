@@ -1,4 +1,4 @@
-lane :beta do
+lane :feature do
 
 increment_build_number
 
