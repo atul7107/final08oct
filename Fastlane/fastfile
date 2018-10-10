@@ -39,7 +39,7 @@ snapshot(
     scheme: 'final',
     devices: ['iPhone 6'],
     output_simulator_logs: true,
-    clear_previous_screenshots: true,
+    clear_previous_screenshots: true
     )
   
   end
