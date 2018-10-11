@@ -1,21 +1,35 @@
 #!groovy
 
-library "github.com/atul7107/final08oct@feature-fastlane"
-
-node 
-      {
-	stage ("Checkout")  
-		checkout scm
-	       
-	stage ("increment") 
-		sh 'fastlane feature'
-	       
-	stage ("build")  
-	        sh 'fastlane build'
-	      
-	stage ("unit test") 
-	        sh 'fastlane unittest'
-	      
-	stage  ("screenshot") 
-	        sh 'fastlane screenshot'
+library "github.com/atul7107/final08oct@feature-fastlane" 
+      
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                sh 'scm checkout'
+            }
+        }
+        stage('increment') {
+            steps {
+                sh 'fastlane feature'
+            }
+        }
+        stage('build') {
+            steps {
+                sh 'fastlane build'
+            }
+        }
+        stage('unit test') {
+            steps {
+                sh 'fastlane unittest'
+            }
+        }
+        stage('screenshot') {
+            steps {
+                sh 'fastlane screenshot'
+            }
+        }    
+   
+    }
+    
   }
