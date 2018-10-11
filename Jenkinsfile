@@ -3,7 +3,9 @@
 library "github.com/atul7107/final08oct@feature-fastlane"
 
 node {
-	stage 'Checkout'
+	stage "Checkout" {
+		// some block
+	}
 		checkout scm
 	stage 'increment'
 		sh 'fastlane feature'
