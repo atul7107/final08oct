@@ -15,6 +15,6 @@ node
 	stage ("unit test") {
 	        sh 'fastlane unittest'
 	      }
-	stage  "(screenshot") {
+	stage  ("screenshot") {
 	        sh 'fastlane screenshot'
               }
