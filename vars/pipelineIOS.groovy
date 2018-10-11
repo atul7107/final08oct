@@ -1,7 +1,4 @@
-#!groovy
-
-pipeline {
-  agent any
+def call() {
 
   stages {
     stage('Checkout') {
@@ -34,4 +31,5 @@ pipeline {
       }
     }
   }
+ }
 }
