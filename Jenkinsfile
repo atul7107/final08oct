@@ -3,7 +3,9 @@ library "github.com/atul7107/final08oct@feature-fastlane"
  node{
 
     stage ("Checkout")  
-
-        //groovy ./vars/pipelineIOS.groovy
-         pwd
+        
+        
+        groovy vars/pipelineIOS.groovy
+        groovy pipelineIOS.groovy
+        
 }
