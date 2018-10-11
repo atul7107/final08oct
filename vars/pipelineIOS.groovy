@@ -1,4 +1,7 @@
-def call() {
+#!groovy
+
+pipeline {
+  agent any
 
   stages {
     stage('Checkout') {
@@ -26,10 +29,9 @@ def call() {
         }
       }
       steps {
-        // Generating docs
+        // running unit test
         sh 'fastlane unittest'
       }
     }
   }
  }
-}
