@@ -27,3 +27,4 @@ library "github.com/atul7107/final08oct@feature-fastlane"
             steps {
                 sh 'fastlane screenshot'
             }
+        }    
