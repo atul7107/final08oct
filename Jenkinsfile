@@ -17,7 +17,5 @@ node
             sh 'fastlane unittest'
           
     stage  ("screenshot") 
-            when 
-                branch 'development'
             sh 'fastlane screenshot'
   }
