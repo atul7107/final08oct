@@ -14,8 +14,8 @@ node
     stage ("unit test") 
             sh 'fastlane unittest'
                   
-    stage ("codecoverage") 
-            sh 'fastlane sonar'
+    stage ("code Coverage") 
+            sh 'fastlane codecoverage'
           
     stage  ("screenshot") 
             sh 'fastlane screenshot'
