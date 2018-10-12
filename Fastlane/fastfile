@@ -1,42 +1,48 @@
-lane :beta do
+lane :feature do
 
 increment_build_number
 
 increment_version_number(
     bump_type: "major" 
 )
+end
+
+lane :build do
   
 gym(
     scheme: "final",
     export_options: {
     method: "enterprise"}  
 )
+end
+
+lane :unittest do
 
 run_tests(
     devices: ["iPhone 6"],
     scheme: "final"
 )
+end
+
+lane :sonar do
 
 sonar(
-  project_key: "SR-cargill-cascna-mainapp",
-  project_version: "1.0",
-  project_name: "SR-cargill-cascna-mainapp",
-  sources_path: File.expand_path("/Users/atuyadav2/Desktop/final"),
-  sonar_url: "https://tools.publicis.sapient.com/sonar67/",
-  sonar_login: "01902254bf811f71f5dd996fb9d281cbc97d7a28",
-)
+   project_key: "SR_cargill_cascna_mainapp",
+   project_version: "1.0",
+   project_name: "SR_cargill_cascna_mainapp",
+   sources_path: File.expand_path("/Users/atuyadav2/Desktop/final"),
+   sonar_url: "https://tools.publicis.sapient.com/sonar67/",
+   sonar_login: "01902254bf811f71f5dd996fb9d281cbc97d7a28",
+ )
+ end
+
+lane :screenshot do
+
 snapshot(
     project: 'final.xcodeproj',
     scheme: 'final',
     devices: ['iPhone 6'],
     output_simulator_logs: true,
     clear_previous_screenshots: true
-  )
-
-#hockey(
-#  api_token: "676d0b1a5c4f4d82b069208abfbc84d9",
-#  ipa: "/Users/devsuri/Documents/final/final.ipa",
-#  notes: "Changelog",
-#)
+)
 end
-
