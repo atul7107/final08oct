@@ -6,18 +6,18 @@ node
         checkout scm
            
     stage ("increment") 
-        sh 'fastlane feature'
+        sh 'bundle exec fastlane feature'
            
     stage ("build")  
-            sh 'fastlane build'
+            sh 'bundle exec fastlane build'
           
     stage ("unit test") 
-            sh 'fastlane unittest'
+            sh 'bundle exec fastlane unittest'
                   
     stage ("code Coverage") 
-            sh 'fastlane codecoverage'
+            sh 'bundle exec fastlane codecoverage'
           
     stage  ("screenshot") 
-            sh 'fastlane screenshot'
+            sh 'bundle exec fastlane screenshot'
   }
   
