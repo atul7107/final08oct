@@ -24,7 +24,7 @@ run_tests(
 )
 end
 
-lane :sonar do
+lane :codecoverage do
 
 sonar(
    project_key: "SR_cargill_cascna_mainapp",
